@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](design/Testimonials.jpg)
+![](design/desktop-design.jpg)
 
 ### Links
 

@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-weight: 500;
+    src: url('../fonts/BarlowSemiCondensed-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed SemiBold';
+    font-weight: 600;
+    src: url('../fonts/BarlowSemiCondensed-SemiBold.ttf');
+}
+
+
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-width: 320px;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+
+/* end of global styles */
+
+
+/* Daniel Clifford */
+
+.section-1 {
+    background: url('../images/bg-pattern-quotation.svg') 80% top no-repeat, hsl(263, 55%, 52%);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.2);
+    transition: all 0.3s linear;
+}
+
+.section-1:hover {
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.8);
+}
+
+.section-1-info img {
+    width: 35px;
+    border: 2px solid #A775F1;
+    margin-right: 1rem;
+}
+
+.daniel-name {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 13px;
+    color: #FFF;
+}
+
+.daniel-verified {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.daniel-intro-1 {
+    font-family: 'Barlow Semi Condensed SemiBold';
+    color: #FFF;
+}
+
+.daniel-intro-2 {
+    font-family: 'Barlow Semi Condensed Medium';
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* end of Daniel Clifford */
+
+
+/* Jonathan Walters */
+
+.section-2 {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.2);
+    transition: all 0.3s linear;
+}
+
+.section-2:hover {
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.8);
+}
+
+.section-2-info img {
+    width: 35px;
+    margin-right: 1rem;
+}
+
+.jonathan-name {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 13px;
+    color: #FFF;
+}
+
+.jonathan-verified {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.jonathan-intro-1 {
+    font-family: 'Barlow Semi Condensed SemiBold';
+    color: #FFF;
+}
+
+.jonathan-intro-2 {
+    font-family: 'Barlow Semi Condensed Medium';
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* end of Jonathan Walters */
+
+
+/* Jeanette Harmon */
+
+.section-3 {
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.2);
+    transition: all 0.3s linear;
+}
+
+.section-3:hover {
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.8);
+}
+
+.section-3-info img {
+    width: 35px;
+    margin-right: 1rem;
+}
+
+.jeanette-name {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.jeanette-verified {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 11px;
+    color: hsla(217, 19%, 35%, 50%);
+}
+
+.jeanette-intro-1 {
+    font-family: 'Barlow Semi Condensed SemiBold';
+    color: hsl(217, 19%, 35%);
+}
+
+.jeanette-intro-2 {
+    font-family: 'Barlow Semi Condensed Medium';
+    color: hsla(217, 19%, 35%, 70%);
+}
+
+
+/* end of Jeanette Harmon */
+
+
+/* Patrick Abrams */
+
+.section-4 {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.2);
+    transition: all 0.3s linear;
+}
+
+.section-4:hover {
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.8);
+}
+
+.section-4-info img {
+    width: 35px;
+    border: 2px solid hsl(263, 55%, 52%);
+    margin-right: 1rem;
+}
+
+.patrick-name {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 13px;
+    color: #FFF;
+}
+
+.patrick-verified {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.patrick-intro-1 {
+    font-family: 'Barlow Semi Condensed SemiBold';
+    color: #FFF;
+}
+
+.patrick-intro-2 {
+    font-family: 'Barlow Semi Condensed Medium';
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* end of Patrick Abrams */
+
+
+/* Kira Whittle */
+
+.section-5 {
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.2);
+    transition: all 0.3s linear;
+}
+
+.section-5:hover {
+    box-shadow: 0 60px 50px -47px rgba(72, 85, 106, 0.8);
+}
+
+.section-5-info img {
+    width: 35px;
+    margin-right: 1rem;
+}
+
+.kira-name {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.kira-verified {
+    font-family: 'Barlow Semi Condensed Medium';
+    font-size: 11px;
+    color: hsla(217, 19%, 35%, 50%);
+}
+
+.kira-intro-1 {
+    font-family: 'Barlow Semi Condensed SemiBold';
+    color: hsl(217, 19%, 35%);
+}
+
+.kira-intro-2 {
+    font-family: 'Barlow Semi Condensed Medium';
+    color: hsla(217, 19%, 35%, 70%);
+}
+
+
+/* end of Kira Whittle */
+
+
+/* grid area */
+
+@media screen and (min-width: 1200px) {
+    .grid-section {
+        display: grid;
+        grid-template-rows: 282px 266px;
+        grid-template-areas: "a a b e" "c d d e";
+        gap: 1.5rem;
+    }
+    .section-1 {
+        grid-area: a;
+    }
+    .section-2 {
+        grid-area: b;
+    }
+    .section-3 {
+        grid-area: c;
+    }
+    .section-4 {
+        grid-area: d;
+    }
+    .section-5 {
+        grid-area: e;
+    }
+    .daniel-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 18px!important;
+        color: #FFF;
+    }
+    .daniel-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 11px!important;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .jonathan-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 18px!important;
+        color: #FFF;
+    }
+    .jonathan-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 11px!important;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .jeanette-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 18px!important;
+        color: hsl(217, 19%, 35%);
+    }
+    .jeanette-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 11px!important;
+        color: hsla(217, 19%, 35%, 70%);
+    }
+    .patrick-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 18px!important;
+        color: #FFF;
+    }
+    .patrick-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 11px!important;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .kira-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 18px!important;
+        color: hsl(217, 19%, 35%);
+    }
+    .kira-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 11px!important;
+        color: hsla(217, 19%, 35%, 70%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main-section {
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-section {
+        display: grid;
+        grid-template-columns: 23% 23% 23% 23%;
+        grid-template-rows: 282px 266px;
+        grid-template-areas: "a a b e" "c d d e";
+        gap: 1.5rem;
+    }
+    .section-1 {
+        grid-area: a;
+    }
+    .section-2 {
+        grid-area: b;
+    }
+    .section-3 {
+        grid-area: c;
+    }
+    .section-4 {
+        grid-area: d;
+    }
+    .section-5 {
+        grid-area: e;
+    }
+    .daniel-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 14px;
+        color: #FFF;
+    }
+    .daniel-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .jonathan-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 14px;
+        color: #FFF;
+    }
+    .jonathan-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.7;
+    }
+    .jeanette-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 14px;
+        color: hsl(217, 19%, 35%);
+    }
+    .jeanette-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 10px;
+        color: hsla(217, 19%, 35%, 70%);
+        line-height: 2;
+    }
+    .patrick-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 14px;
+        color: #FFF;
+    }
+    .patrick-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .kira-intro-1 {
+        font-family: 'Barlow Semi Condensed SemiBold';
+        font-size: 14px;
+        color: hsl(217, 19%, 35%);
+    }
+    .kira-intro-2 {
+        font-family: 'Barlow Semi Condensed Medium';
+        font-size: 10px;
+        color: hsla(217, 19%, 35%, 70%);
+        line-height: 1.8;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .grid-section {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-areas: "a" "b" "c" "d" "e";
+        gap: 1.5rem;
+    }
+    .section-1 {
+        grid-area: a;
+        margin-top: 1.5rem;
+    }
+    .section-2 {
+        grid-area: b;
+    }
+    .section-3 {
+        grid-area: c;
+    }
+    .section-4 {
+        grid-area: d;
+    }
+    .section-5 {
+        grid-area: e;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+/* end of grid area */

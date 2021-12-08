@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: [GitHub Repository](https://github.com/Atrin-Abbasian/testimonials-grid-section)
-- Live Site URL: [GitHub Pages](https://atrin-abbasian.github.io/testimonials-grid-section)
+- GitHub URL: [GitHub Repository](https://github.com/AtrinDev/testimonials-grid-section)
+- Live Site URL: [GitHub Pages](https://atrindev.github.io/testimonials-grid-section/)
 
 ## My process
 
